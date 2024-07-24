@@ -4,7 +4,6 @@ import img from "../../assets/Business-Mastery-e1720094539202-768x665.jpg";
 import img2 from "../../assets/Brain-Icon.webp"
 
 const Banner = () => {
-  //   const time = moment().format("MMMM Do YYYY, h:mm:ss a");
 
   return (
     <div className="max-w-screen-lg mx-auto pt-24 pb-12 px-6">
