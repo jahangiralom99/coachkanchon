@@ -1,6 +1,7 @@
 import Banner from "./Banner";
 import BookCard from "./BookCard";
 import Business from "./Business";
+import CompanyLogo from "./CompanyLogo";
 import Course from "./Course";
 import MarqueLogo from "./MarqueLogo";
 import MySecrets from "./MySecrets";
@@ -17,7 +18,8 @@ const Home = () => {
             <Course />
             <MySecrets />
             <Selling />
-            <BookCard/>
+            <BookCard />
+            <CompanyLogo/>
         </div>
     );
 };

@@ -5,13 +5,14 @@ import image4 from "../../assets/mastaring-ur-life-185x300.png";
 import image5 from "../../assets/Asset-11-300x8.png";
 import image6 from "../../assets/Business-Mastery-e1720094539202.jpg";
 import image7 from "../../assets/ffffffff.png";
-import { FaArrowUpLong } from "react-icons/fa6";
+import image8 from "../../assets/Alumni-Uplift-Coach-Kanchon.webp";
+import { FaArrowUpLong, FaFacebook } from "react-icons/fa6";
 import { RiCursorFill } from "react-icons/ri";
 
 const BookCard = () => {
   return (
     <div>
-      <div className="max-w-screen-xl mx-auto px-4">
+      <div className="max-w-screen-xl mx-auto px-5">
         <div className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-4 justify-items-center -mt-44">
           <div className="space-y-8">
             <img
@@ -59,7 +60,7 @@ const BookCard = () => {
           </div>
         </div>
       </div>
-      <div className="text-center bg-red-500 pt-96 -mt-56">
+      <div className="text-center bg-red-500 pt-96 -mt-56 px-5 pb-16">
         <h1 className="text-2xl font-bold text-white">
           কোর্স একসেস কিভাবে পাবেন?
         </h1>
@@ -98,19 +99,19 @@ const BookCard = () => {
           </div>
         </div>
         {/* ---------------- */}
-        <div className="mt-8 text-white text-center">
+        <div className="mt-8 font-bold text-white text-center">
           {" "}
           <p>
             কোর্স চলাকালীন যেকোনো সাপোর্টের জন্য কোচ কাঞ্চন একাডেমি এলামনাই
             ফেসবুক গ্রুপে অবশ্যই জয়েন করেবন।
           </p>
-          <p className="mt-6">
+          <p className="mt-2">
             কোচ কাঞ্চন একাডেমি এলামনাই ফেসবুক গ্রুপ লিঙ্ক পেতে আপনি আপনার
             প্রোফাইল ড্যাশবোর্ড এ লগ ইন করুন ।
           </p>
         </div>
         {/* button  */}
-        <div className="border-2 border-white hover:border-black w-96 mx-auto mt-12">
+        <div className="border-4 border-white hover:border-black md:w-96 mx-auto mt-12">
           <div className="flex items-center justify-center hover:bg-white hover:text-black gap-4 text-white p-3 cursor-pointer">
             <RiCursorFill className="text-2xl" />
             <div className="flex flex-col text-start">
@@ -118,6 +119,37 @@ const BookCard = () => {
               <p>Get instant access to your course</p>
             </div>
           </div>
+        </div>
+        {/* Please use your  EMAIL ID   PASSWORD to login */}
+        <div className="mt-6 text-center text-white">
+          <p className="underline text-xl">
+            <span className="underline text-xl font-bold">Please use your</span>{" "}
+            <span className="bg-white text-red-500 font-extrabold p-1">
+              EMAIL ID{" "}
+            </span>{" "}
+            <span className="bg-white text-red-500 font-extrabold p-1 ml-2">
+              PASSWORD
+            </span>{" "}
+            to login
+          </p>
+          <p className="text-xl mt-2">
+            For any help or enquiry please WhatsApp us
+          </p>
+          <p className="bg-white text-black font-bold  w-36 mx-auto mt-3">
+            {" "}
+            01966 508 000{" "}
+          </p>
+        </div>
+        {/* group image  */}
+        <div className="mt-12 text-center">
+          <img className="inline" src={image8} alt="" />
+        </div>
+        {/* button join our */}
+        <div className="flex max-w-screen-sm mx-auto items-center text-white justify-center mt-8  p-4 gap-8 bg-[#1877f2] rounded "> 
+        <FaFacebook className="text-3xl " />
+      
+            <p className="text-xl font-bold uppercase">JOIN OUR FACEBOOK GROUP</p>
+        
         </div>
       </div>
     </div>

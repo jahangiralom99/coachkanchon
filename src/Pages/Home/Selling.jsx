@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import { FaArrowUpLong } from "react-icons/fa6";
 import img1 from "../../assets/Asset-2-1.png";
 import money from "../../assets/money-machine-2-600x824.png";
@@ -9,7 +10,7 @@ const Selling = () => {
         <h1 className="text-2xl text-red-500 font-bold text-center">
           EXPLORE COACH KANCHON'S WRITTEN MASTERPIECES
         </h1>
-        <div className="flex items-center gap-5 justify-center mt-8">
+        <div className="flex flex-col md:flex-row items-center gap-5 justify-center mt-8">
           <img src={img1} alt="" />
           <div className="text-[#d0a065] space-y-2">
             <h1 className="text-2xl font-bold ">#NO-1</h1>
