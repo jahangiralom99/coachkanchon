@@ -6,6 +6,7 @@ import image5 from "../../assets/Asset-11-300x8.png";
 import image6 from "../../assets/Business-Mastery-e1720094539202.jpg";
 import image7 from "../../assets/ffffffff.png";
 import { FaArrowUpLong } from "react-icons/fa6";
+import { RiCursorFill } from "react-icons/ri";
 
 const BookCard = () => {
   return (
@@ -98,10 +99,25 @@ const BookCard = () => {
         </div>
         {/* ---------------- */}
         <div className="mt-8 text-white text-center">
+          {" "}
           <p>
             কোর্স চলাকালীন যেকোনো সাপোর্টের জন্য কোচ কাঞ্চন একাডেমি এলামনাই
             ফেসবুক গ্রুপে অবশ্যই জয়েন করেবন।
           </p>
+          <p className="mt-6">
+            কোচ কাঞ্চন একাডেমি এলামনাই ফেসবুক গ্রুপ লিঙ্ক পেতে আপনি আপনার
+            প্রোফাইল ড্যাশবোর্ড এ লগ ইন করুন ।
+          </p>
+        </div>
+        {/* button  */}
+        <div className="border-2 border-white hover:border-black w-96 mx-auto mt-12">
+          <div className="flex items-center justify-center hover:bg-white hover:text-black gap-4 text-white p-3 cursor-pointer">
+            <RiCursorFill className="text-2xl" />
+            <div className="flex flex-col text-start">
+              <p className="text-xl">GO TO DASHBOARD</p>
+              <p>Get instant access to your course</p>
+            </div>
+          </div>
         </div>
       </div>
     </div>
