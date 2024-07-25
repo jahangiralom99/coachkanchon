@@ -73,8 +73,8 @@ const Footer = () => {
           Dhaka-1212, Bangladesh
         </p>
       </div>
-      <div className="text-center mt-4 text-sm ">
-        <p>© COACH KANCHON - ALL RIGHTS RESERVED</p>
+      <div className="text-center mt-4 text-sm space-y-2">
+        <p className="text-white">© COACH KANCHON - ALL RIGHTS RESERVED</p>
         <p className="text-red-500">DESIGN AND MANAGED BY: Jahangir Alam</p>
       </div>
     </div>
